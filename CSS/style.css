@@ -4,4 +4,20 @@
     background-color: #006cfa;
     border: white solid 1px;
     color: white;
+    padding: 10px;
+}
+
+.block{
+    min-height: 30px;
+    font-size: 14px;
+}
+
+.green{
+    background-color: #00e165;
+    border: #006cfa 1px solid;
+}
+
+.block.white{
+    background-color: white;
+    min-height: 15px;
 }
