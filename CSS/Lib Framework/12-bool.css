@@ -198,14 +198,17 @@
 
 .start{
     align-items: start;
+    justify-content: start;
 }
 
 .center{
     align-items: center;
+ 
 }
 
 .end{
     align-items: end;
+    justify-content: end;
 }
 
 .around{
