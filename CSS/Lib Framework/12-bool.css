@@ -1,0 +1,292 @@
+/* Regole basi framework */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+[class*="col-"]{
+    flex-basis: 0 0 auto;
+}
+
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+/* Regole COLONNE */
+
+.col-1{
+    flex-basis: calc((100% / 12) *1);
+}
+
+.col-2{
+    flex-basis: calc((100% / 12) *2);
+}
+
+.col-3{
+    flex-basis: calc((100% / 12) *3);
+}
+
+.col-4{
+    flex-basis: calc((100% / 12) *4);
+}
+
+.col-5{
+    flex-basis: calc((100% / 12) *5);
+}
+
+.col-6{
+    flex-basis: calc((100% / 12) *6);
+}
+
+.col-7{
+    flex-basis: calc((100% / 12) *7);
+}
+
+.col-8{
+    flex-basis: calc((100% / 12) *8);
+}
+
+.col-9{
+    flex-basis: calc((100% / 12) *9);
+}
+
+.col-10{
+    flex-basis: calc((100% / 12) *10);
+}
+
+.col-11{
+    flex-basis: calc((100% / 12) *11);
+}
+
+/* REGOLE PER SPAZIO TRA LE COLONNE */
+
+.col-offset-1{
+    margin-left: calc((100% / 12) *1);
+}
+
+.col-offset-2{
+    margin-left: calc((100% / 12) *2);
+}
+
+.col-offset-3{
+    margin-left: calc((100% / 12) *3);
+}
+
+.col-offset-4{
+    margin-left: calc((100% / 12) *4);
+}
+
+.col-offset-5{
+    margin-left: calc((100% / 12) *5);
+}
+
+.col-offset-6{
+    margin-left: calc((100% / 12) *6);
+}
+
+.col-offset-7{
+    margin-left: calc((100% / 12) *7);
+}
+
+.col-offset-8{
+    margin-left: calc((100% / 12) *8);
+}
+
+.col-offset-9{
+    margin-left: calc((100% / 12) *9);
+}
+
+.col-offset-10{
+    margin-left: calc((100% / 12) *10);
+}
+
+.col-offset-11{
+    margin-left: calc((100% / 12) *11);
+}
+
+
+
+
+/* REGOLE RESPONSIVE */
+
+
+
+@media all and (min-width:576px) {
+
+    .col-1-sm{
+        flex-basis: calc((100% / 12) *1);
+    }
+    
+    .col-2-sm{
+        flex-basis: calc((100% / 12) *2);
+    }
+    
+    .col-3-sm{
+        flex-basis: calc((100% / 12) *3);
+    }
+    
+    .col-4-sm{
+        flex-basis: calc((100% / 12) *4);
+    }
+    
+    .col-5-sm{
+        flex-basis: calc((100% / 12) *5);
+    }
+    
+    .col-6-sm{
+        flex-basis: calc((100% / 12) *6);
+    }
+    
+    .col-7-sm{
+        flex-basis: calc((100% / 12) *7);
+    }
+    
+    .col-8-sm{
+        flex-basis: calc((100% / 12) *8);
+    }
+    
+    .col-9-sm{
+        flex-basis: calc((100% / 12) *9);
+    }
+    
+    .col-10-sm{
+        flex-basis: calc((100% / 12) *10);
+    }
+    
+    .col-11-sm{
+        flex-basis: calc((100% / 12) *11);
+    }
+
+}
+
+
+
+@media all and (min-width:780px) {
+
+    .col-1-md{
+        flex-basis: calc((100% / 12) *1);
+    }
+    
+    .col-2-md{
+        flex-basis: calc((100% / 12) *2);
+    }
+    
+    .col-3-md{
+        flex-basis: calc((100% / 12) *3);
+    }
+    
+    .col-4-md{
+        flex-basis: calc((100% / 12) *4);
+    }
+    
+    .col-5-md{
+        flex-basis: calc((100% / 12) *5);
+    }
+    
+    .col-6-md{
+        flex-basis: calc((100% / 12) *6);
+    }
+    
+    .col-7-md{
+        flex-basis: calc((100% / 12) *7);
+    }
+    
+    .col-8-md{
+        flex-basis: calc((100% / 12) *8);
+    }
+    
+    .col-9-md{
+        flex-basis: calc((100% / 12) *9);
+    }
+    
+    .col-10-md{
+        flex-basis: calc((100% / 12) *10);
+    }
+    
+    .col-11-md{
+        flex-basis: calc((100% / 12) *11);
+    }
+}
+
+
+
+
+@media all and (min-width:1080px) {
+
+    .col-1-lg{
+        flex-basis: calc((100% / 12) *1);
+    }
+    
+    .col-2-lg{
+        flex-basis: calc((100% / 12) *2);
+    }
+    
+    .col-3-lg{
+        flex-basis: calc((100% / 12) *3);
+    }
+    
+    .col-4-lg{
+        flex-basis: calc((100% / 12) *4);
+    }
+    
+    .col-5-lg{
+        flex-basis: calc((100% / 12) *5);
+    }
+    
+    .col-6-lg{
+        flex-basis: calc((100% / 12) *6);
+    }
+    
+    .col-7-lg{
+        flex-basis: calc((100% / 12) *7);
+    }
+    
+    .col-8-lg{
+        flex-basis: calc((100% / 12) *8);
+    }
+    
+    .col-9-lg{
+        flex-basis: calc((100% / 12) *9);
+    }
+    
+    .col-10-lg{
+        flex-basis: calc((100% / 12) *10);
+    }
+    
+    .col-11-lg{
+        flex-basis: calc((100% / 12) *11);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

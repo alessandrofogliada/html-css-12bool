@@ -1,0 +1,7 @@
+[class*="col-"]{
+    /* DEBUG */
+    min-height: 50px;
+    background-color: #006cfa;
+    border: white solid 1px;
+    color: white;
+}
