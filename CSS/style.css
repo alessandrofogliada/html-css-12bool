@@ -5,6 +5,8 @@
     border: white solid 1px;
     color: white;
     padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .block{
@@ -20,4 +22,16 @@
 .block.white{
     background-color: white;
     min-height: 15px;
+}
+
+.row .big{
+    min-height: 100px;
+}
+
+.row .middle{
+    min-height: 60px;
+}
+
+.row .small{
+    height: 50px;
 }

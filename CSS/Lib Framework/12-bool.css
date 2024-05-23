@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 [class*="col-"]{
@@ -190,13 +191,30 @@
 
 /* REGOLE FLEX */
 
-.elementcenter{
+.element{
     display: flex;
-    justify-content:center;
+    justify-content: center;
+}
+
+.start{
+    align-items: start;
+}
+
+.center{
     align-items: center;
 }
 
+.end{
+    align-items: end;
+}
 
+.around{
+    justify-content: space-around;
+}
+
+.between{
+    justify-content:space-between ;
+}
 
 
 /* REGOLE RESPONSIVE */
